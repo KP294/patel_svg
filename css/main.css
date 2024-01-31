@@ -1,0 +1,189 @@
+
+/*ball*/
+.ball{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+.ball:hover object {
+    cursor: pointer; 
+    transform: rotate(360deg) scale(2);
+    transition: transform 2s ease-in-out; 
+    
+    }
+
+
+/*cube*/
+.cube{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    background-color: lightcoral;
+}
+
+.cube:hover object{
+    transition: transform 2s ease-in-out; 
+   
+}
+
+.cube:hover object {
+    cursor: pointer; 
+    transform: rotate(360deg) scale(2);
+    transition: transform 2s ease-in-out; 
+    animation: scaleUpDownWithShadow 2s ease-in-out infinite; 
+    box-shadow: 10px ;
+    }
+
+ @keyframes  scaleUpDownWithShadow{
+ 0% {
+    transform: scale(1); 
+    filter: drop-shadow(0 0 0px rgba(0, 0, 0, 0)); 
+}
+50% {
+    transform: scale(1.2); 
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 1.5)); 
+}
+100% {
+    transform: scale(1); 
+    filter: drop-shadow(0 0 0px rgba(0, 0, 0, 0)); 
+} }
+
+    
+/*L*/
+.L{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    background: linear-gradient(to bottom right, blue, purple, orange); 
+    
+}
+
+.L object{
+    display: inline-block; 
+}
+
+@keyframes bounceAnimation {
+    0% {
+        transform: translateY(0); 
+
+    }
+    50% {
+        transform: translateY(-30px); 
+    }
+    100% {
+        transform: translateY(0); 
+    }
+}
+
+
+.L:hover object{
+    animation: bounceAnimation 1s ease infinite;
+}
+
+/*text around it*/
+
+.L{
+    position: relative;
+    display: inline-block;
+}
+
+.text {
+    color: white;
+    font-weight:bolder;
+    font-size: larger;
+    position: absolute;
+    top: 80%;
+    left: -100%; 
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.L:hover .text {
+    opacity: 1;
+    animation: circularPath 3s linear infinite; 
+}
+
+@keyframes circularPath {
+    0% {
+        left: 30%; 
+        transform: translate(-50%, -50%) ; 
+    }
+    25% {
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+    }
+    50% {
+        left: 70%; 
+        transform: translate(-50%, -50%); 
+    }
+    75% {
+        left: 50%;
+        transform: translate(-50%, -50%) 
+    }
+    100% {
+        left: 30%;
+        transform: translate(-50%, -50%)  
+    }
+}
+
+/*Pendrive*/
+.Pendrive{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    background-color: rgb(54, 86, 155);
+}
+
+  
+.Pendrive:hover object {
+    transform: scale(1.5);
+    transition: transform 3s ease; 
+    animation: colorChange 2s infinite;
+    box-shadow: 10px ;
+}
+
+  @keyframes colorChange {
+    0% { filter: hue-rotate(0deg); } 
+    100% { filter: hue-rotate(180deg); } 
+    0% { filter: hue-rotate(0deg); } 
+  }
+
+
+/*puzzel*/
+.puzzel object{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    background-color: rgb(227, 113, 31)
+}
+
+.puzzel:hover object{
+
+    transition: all 0.3s ease-in-out;
+    animation: glow 1s infinite alternate; /* Apply glow animation on hover */
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); /* Initial glow color and size */
+    }
+    100% {
+        box-shadow: 0 0 40px 30px rgba(18, 224, 235, 0.8); /* Final glow color and size */
+    }
+}
+  
+/*sun*/
+.sun{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    background-color: rgb(25, 87, 179)
+}
+
+.sun:hover object {
+  transform: scale(2) ;
+  transition: transform 3s ease;
+}

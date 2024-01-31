@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135.56 130.66">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #1a1a1a;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2.86px;
+      }
+
+      .cls-2 {
+        fill: #f1cb45;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #db8f1b;
+      }
+
+      .cls-5 {
+        fill: #fcea85;
+      }
+    </style>
+  </defs>
+  <g id="OBJECTS">
+    <g>
+      <g>
+        <polygon class="cls-2" points="2.86 96.38 2.86 35.66 66.35 66.23 66.35 126.95 2.86 96.38"/>
+        <path class="cls-3" d="m4.29,37.94l60.63,29.19v57.55L4.29,95.48v-57.55m-2.86-4.56v63.9l66.35,31.95v-63.9L1.43,33.38h0Z"/>
+        <polygon class="cls-1" points="1.43 33.38 1.43 97.28 67.78 129.23 67.78 65.33 1.43 33.38"/>
+      </g>
+      <g>
+        <polygon class="cls-5" points="4.73 33.38 67.78 3.02 130.83 33.38 67.78 63.74 4.73 33.38"/>
+        <path class="cls-3" d="m67.78,4.61l59.75,28.77-59.75,28.77L8.03,33.38,67.78,4.61m0-3.18L1.43,33.38l66.35,31.95,66.35-31.95L67.78,1.43h0Z"/>
+        <polygon class="cls-1" points="1.43 33.38 67.78 65.33 134.13 33.38 67.78 1.43 1.43 33.38"/>
+      </g>
+      <g>
+        <polygon class="cls-4" points="69.21 66.23 132.7 35.66 132.7 96.38 69.21 126.95 69.21 66.23"/>
+        <path class="cls-3" d="m131.27,37.94v57.55l-60.62,29.19v-57.55l60.62-29.19m2.86-4.56l-66.35,31.95v63.9l66.35-31.95v-63.9h0Z"/>
+        <polygon class="cls-1" points="67.78 129.23 67.78 65.33 134.13 33.38 134.13 97.28 67.78 129.23"/>
+      </g>
+    </g>
+  </g>
+</svg>
