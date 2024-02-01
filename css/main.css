@@ -132,14 +132,14 @@
 /*Pendrive*/
 .Pendrive{
     width: 500px;
-    height: 500px;
+    height: 850px;
     text-align: center;
     background-color: rgb(54, 86, 155);
 }
 
   
 .Pendrive:hover object {
-    transform: scale(1.5);
+    transform: scale(1);
     transition: transform 3s ease; 
     animation: colorChange 2s infinite;
     box-shadow: 10px ;
